@@ -30,3 +30,16 @@ img {
     padding: 10px 20px;
     color: white;
   }
+  
+.footer-t {
+    margin: 4;
+    color: white;
+    /* Texto blanco */
+  }
+  .p{
+    text-align: center;
+  }
+
+  .elemento-con-margen {
+    margin: 25px; /* Establece márgenes iguales en los cuatro lados (arriba, derecha, abajo, izquierda) */
+}
