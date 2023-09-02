@@ -9,6 +9,69 @@ img {
     margin: 0 auto;
   
 }
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: red;
+    /* Fondo rojo */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    display: flex;
+    /* Mostrar elementos en línea */
+    justify-content: center;
+    /* Centrar contenido horizontalmente */
+  }
+  
+  /* Estilos para el título de la barra de navegación */
+  .navbar-title {
+    margin: 0;
+    color: white;
+    /* Texto blanco */
+  }
+
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos horizontalmente */
+    align-items: center;
+    /* Centra verticalmente los elementos en el contenedor */
+    padding: 50px 50px 20px 50px;
+  
+  }
+  
+  .textoimagen {
+    padding: 50px 25px;
+    border: 2px solid #a39c9c5c;
+    /* 2px de ancho, sólido (tipo de borde) y color negro (#000) */
+    display: flex;
+  
+  }
+  
+  .texto {
+    flex: 1;
+    /* Hace que el texto ocupe el espacio restante  */
+    text-align: left;
+  }
+  
+  .imagen {
+    flex-shrink: 0;
+    /*Evita que la imagen se reduzca si el espacio es insuficiente  */
+    margin-left: 20px;
+    /*Agrega un margen entre el texto y la imagen (ajusta según tu diseño)  */
+    text-align: right;
+  }
+  
+  .boton{
+    padding: 13px;
+  }
+  
+  .botonVolver{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+  }
+
+
 
 .recuadro {
     width: 600px; /* Ancho del recuadro */
@@ -19,6 +82,17 @@ img {
     margin: 0 auto; /* Auto para centrar horizontalmente */
     text-align: center; 
 }
+  /* Estilos para la barra de navegación */
+.footer {
+    background-color: red;
+    /* Fondo rojo */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    display: flex;
+    /* Mostrar elementos en línea */
+    justify-content: center;
+    /* Centrar contenido horizontalmente */
+  }
 
 .contenido{
     display: flex;
@@ -29,6 +103,15 @@ img {
     background-color: red;
     padding: 10px 20px;
     color: white;
+  /* Estilos para el título de la barra de navegación */
+  .footer-title {
+    margin: 0;
+    color: white;
+    /* Texto blanco */
+  }
+
+  .elementomargen {
+    margin: 10px 10px 0px 10px;
   }
   
 .footer-t {
