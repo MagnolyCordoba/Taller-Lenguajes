@@ -103,6 +103,7 @@ img {
     background-color: red;
     padding: 10px 20px;
     color: white;
+  }
   /* Estilos para el título de la barra de navegación */
   .footer-title {
     margin: 0;
@@ -121,7 +122,9 @@ img {
   }
   .p{
     text-align: center;
+
   }
+ 
 
   .elemento-con-margen {
     margin: 25px; /* Establece márgenes iguales en los cuatro lados (arriba, derecha, abajo, izquierda) */
