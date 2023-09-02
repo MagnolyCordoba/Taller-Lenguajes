@@ -3,3 +3,30 @@ h1 {
     background-color:red; 
     color: white;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.recuadro {
+    width: 600px; /* Ancho del recuadro */
+    height: 300px; /* Alto del recuadro */
+    border: 2px solid gainsboro; /* Borde de 2 píxeles de grosor, estilo sólido y color negro */
+    background-color: whitesmoke; /* Color de fondo del recuadro */
+    padding: 50px; /* Espacio interno para separar el contenido del borde */
+    margin: 0 auto; /* Auto para centrar horizontalmente */
+    text-align: center; 
+}
+
+.contenido{
+    display: flex;
+    padding: 50px;
+  }
+
+  .btn {
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+  }
