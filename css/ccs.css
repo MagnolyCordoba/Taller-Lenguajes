@@ -24,7 +24,7 @@
     /* Distribuye los elementos horizontalmente */
     align-items: center;
     /* Centra verticalmente los elementos en el contenedor */
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
   
   }
   
@@ -59,4 +59,28 @@
     padding: 10px 20px;
     color: white;
   }
+
+
+
+  /* Estilos para la barra de navegación */
+.footer {
+    background-color: red;
+    /* Fondo rojo */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    display: flex;
+    /* Mostrar elementos en línea */
+    justify-content: center;
+    /* Centrar contenido horizontalmente */
+  }
   
+  /* Estilos para el título de la barra de navegación */
+  .footer-title {
+    margin: 0;
+    color: white;
+    /* Texto blanco */
+  }
+
+  .elementomargen {
+    margin: 10px 10px 0px 10px;
+  }
