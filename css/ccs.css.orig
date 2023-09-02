@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+  
+=======
 h1 {
     text-align: center;
     background-color:red; 
@@ -43,3 +47,4 @@ img {
   .elemento-con-margen {
     margin: 25px; /* Establece márgenes iguales en los cuatro lados (arriba, derecha, abajo, izquierda) */
 }
+>>>>>>> Index
