@@ -1,2 +1,20 @@
-
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: red;
+    /* Fondo rojo */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    display: flex;
+    /* Mostrar elementos en línea */
+    justify-content: center;
+    /* Centrar contenido horizontalmente */
+  }
+  
+  /* Estilos para el título de la barra de navegación */
+  .navbar-title {
+    margin: 0;
+    color: white;
+    /* Texto blanco */
+  }
+  
   
